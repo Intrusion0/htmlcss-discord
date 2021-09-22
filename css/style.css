@@ -13,7 +13,7 @@ body {
 
 .centratura_pagina {
     /* debug */
-    background-color: red;
+    /* background-color: red; */
     width: 65%;
     margin: 0 auto;
 }
@@ -66,7 +66,7 @@ main section {
     width: 100%;
 }
 
-main section:nth-child(even) {
+.background_color_grey {
     background-color: #f6f6f6;
 }
 
@@ -94,13 +94,13 @@ section .clearfix::after {
     margin: 8% 5%;
 }
 
-.centratura_pagina section:nth-child(2) .riquadro_sinistra {
+.riquadro_sinistra.right {
     /* debug */
     float: right;
     margin: 8% 5%;
 }
 
-.centratura_pagina section:nth-child(2) .riquadro_destra {
+.riquadro_destra.left {
     /* debug */
     float: left;
     margin: 8% 3%;
