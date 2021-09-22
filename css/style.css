@@ -24,11 +24,6 @@ header {
 
 /* navigazione */
 
-nav {
-    /* debug */
-    height: 80px;
-}
-
 nav div {
     display: inline-block;
     vertical-align: middle;
@@ -102,7 +97,6 @@ nav ul li a {
     color: white;
     font-size: 56px; 
     font-weight: 800;
-    /* margin-top: 15%; */
     margin-bottom: 7%;
 }
 
@@ -120,16 +114,18 @@ nav ul li a {
     padding: 16px 32px;
     font-weight: 500;
     margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.button.lightblue {
+    background-color: #8EA1E1;
+    color: white;
 }
 
 .icon {
     margin-right: 8px;
-}
-
-#jumbotron a {
-    text-decoration: none;
-    color: black;
-    background-color: white;
 }
 
 #black.button{
@@ -139,19 +135,16 @@ nav ul li a {
 
 /* corpo principale */
 
-main {
-    /* debug */
-    width: 100%;
-}
-
 main section {
-    /* debug */
-    height: 600px;
-    width: 100%;
+    height: 800px;
 }
 
 .background_color_grey {
     background-color: #f6f6f6;
+}
+
+.background_color_grey.altezza_blocco {
+    height: 1150px;
 }
 
 section .clearfix::after {
@@ -163,22 +156,20 @@ section .clearfix::after {
 .riquadro_sinistra {
     float: left;
     width: 42%;
-    margin: 5% 10% 8% 0;
+    margin: 10% 10% 8% 0;
 }
-
-
 
 .riquadro_destra {
     float: right;
     width: 27%;
-    margin: 8% 5%;
+    margin: 12% 5%;
 }
 
-.riquadro_destra h2 {
+.riquadro_destra h2, #riquadro_sopra h2 {
     font-size: 48px;
 }
 
-.riquadro_destra p {
+.riquadro_destra p, #riquadro_sopra p {
     font-size: 20px;
     margin-top: 24px;
 }
@@ -192,67 +183,115 @@ section .clearfix::after {
 }
 
 #riquadro_sopra {
-    /* debug */
-    background-color: chartreuse;
-    height: 200px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#riquadro_sopra p {
+    width: 75%;
+    margin: 24px auto 0;
 }
 
 #riquadro_centrale {
-    /* debug */
-    background-color: rgb(243, 13, 224);
-    height: 250px;
+    text-align: center;
+}
+
+#riquadro_centrale img {
+    width: 85%;
+    margin-bottom: 20px;
 }
 
 #riquadro_sotto {
-    /* debug */
-    background-color: rgb(252, 110, 66);
-    height: 150px;
+    text-align: center;
+}
+
+#riquadro_sotto h3 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    z-index: 10;
+}
+
+#riquadro_sotto img {
+    margin-bottom: -20px;
 }
 
 /* footer */
 
 footer {
     background-color: #23272a;
-    /* debug */
-    height: 600px;
-    width: 100%;
-}
-
-footer div.centratura_pagina {
-    height: 600px;
+    height: 700px;
 }
 
 .riquadro_principale_sinistra {
     float: left;
-    /* debug */
-    background-color: blue;
-    height: 300px;
     width: calc(30% / 1 - 10%);
     margin: 5% 10% 3% 0;
 }
 
+.riquadro_principale_sinistra h2 {
+    font-weight: 800;
+    line-height: 95%;
+    font-size: 32px;
+    color: #8EA1E1;
+    margin-bottom: 30px;
+}
+
+.riquadro_principale_sinistra img {
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: text-bottom;
+    color: white;
+}
+
+.riquadro_principale_sinistra span {
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+}
+
 .riquadri_restanti {
     float: left;
-    /* debug */
-    background-color: blue;
-    height: 300px;
     width: calc(70% / 4 - 5%);
     margin: 5% 5% 3% 0;
 }
 
+.social ul {
+    list-style: none;
+}
+
+.social ul li {
+    display: inline-block;
+    margin: 15px 20px 10px 0;
+} 
+
+.social ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.riquadri_restanti span {
+    display: block;
+    color: white;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.riquadri_restanti span.color_text {
+    color:#8EA1E1;
+}
+
+#hr {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #8EA1E1 ;
+}
+
 #logo_footer {
     float: left;
-    /* debug */
-    background-color: white;
-    height: 30px;
-    width: 10%;
-    margin-top: 4%;
+    width: 20%;
 }
 
 #registrati {
     float: right;
-    background-color: white;
-    height: 30px;
-    width: 10%;
-    margin-top: 4%;
 }
