@@ -1,0 +1,76 @@
+@import url('http://fonts.cdnfonts.com/css/whitney-2');
+@import url('http://fonts.cdnfonts.com/css/neue-helvetica');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Whitney', 'Neue Helvetica', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Intestazione */
+
+header {
+    background-color: #3161e0;
+    /* debug */
+    height: 650px;
+    width: 100%;
+}
+
+nav {
+    /* debug */
+    background-color: red;
+    height: 80px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+#jumbotron {
+    /* debug */
+    background-color: green;
+    text-align: center;
+    height: 570px;
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.centratura {
+    /* debug */
+    background-color: yellow;
+    height: 300px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* corpo principale */
+
+main {
+    /* debug */
+    width: 100%;
+}
+
+main section {
+    /* debug */
+    height: 600px;
+    width: 100%;
+}
+
+main section:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
+/* footer */
+
+footer {
+    background-color: #23272a;
+    /* debug */
+    height: 600px;
+    width: 100%;
+}
