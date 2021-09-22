@@ -12,8 +12,6 @@ body {
 }
 
 .centratura_pagina {
-    /* debug */
-    /* background-color: red; */
     width: 65%;
     margin: 0 auto;
 }
@@ -27,30 +25,91 @@ header {
     width: 100%;
 }
 
+/* navigazione */
+
 nav {
     /* debug */
     height: 80px;
 }
 
-#jumbotron {
-    /* debug */
-    background-color: green;
-    text-align: center;
-    height: 570px;
-    width: 65%;
-    margin: 0 auto;
-    position: relative;
+nav div {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2% 0;
 }
 
-.centratura_header {
-    /* debug */
-    background-color: yellow;
-    height: 350px;
-    width: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+} 
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    margin: 0 21% 0 1%;;
+}
+
+#logo img {
+    height: 35px;
+    max-width: 100%;
+}
+
+#lista {
+    margin: 0 25% 0 0;
+}
+
+#accedi a {
+    display: block;
+    height: 35px;
+    width: 75px;
+    border-radius: 30%;
+    background-color: white;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* jumbotron */
+
+#jumbotron {
+    text-align: center;
+    width: 38%;
+    max-width: 65%;
+    margin: 0 auto;
+    color: white;
+}
+
+#jumbotron h1 {
+    color: white;
+    font-size: 56px; 
+    font-weight: 800;
+    margin-top: 20%;
+    margin-bottom: 7%;
+}
+
+#jumbotron p {
+    font-size: 20px;
+}
+
+#jumbotron a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+#jumbotron button {
+    height: 30px;
+    background-color: black;
+    border-radius: 25%;
+    padding: 10px;
+    color: white;
 }
 
 /* corpo principale */
