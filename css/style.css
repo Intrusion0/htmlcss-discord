@@ -67,12 +67,11 @@ nav ul li a {
 
 #accedi a {
     display: block;
-    height: 35px;
-    width: 75px;
-    border-radius: 30%;
+    border-radius: 40px;
     background-color: white;
     text-decoration: none;
-    line-height: 30px;
+    font-size: 14px;
+    padding: 7px 16px;
     text-align: center;
 }
 
@@ -90,25 +89,34 @@ nav ul li a {
     color: white;
     font-size: 56px; 
     font-weight: 800;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-bottom: 7%;
 }
 
 #jumbotron p {
     font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    font-weight: 500;
+    margin: 0 15px;
 }
 
 #jumbotron a {
-    display: inline-block;
     text-decoration: none;
     color: black;
+    background-color: white;
 }
 
-#jumbotron button {
-    height: 30px;
+#black.button{
     background-color: black;
-    border-radius: 25%;
-    padding: 10px;
     color: white;
 }
 
