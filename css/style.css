@@ -161,33 +161,34 @@ section .clearfix::after {
 }
 
 .riquadro_sinistra {
-    /* debug */
-    background-color: blue;
     float: left;
-    height: 400px;
     width: 42%;
-    margin: 8% 10% 8% 3%;
+    margin: 5% 10% 8% 0;
 }
 
+
+
 .riquadro_destra {
-    /* debug */
-    background-color: violet;
     float: right;
-    height: 400px;
-    width: 30%;
+    width: 27%;
     margin: 8% 5%;
+}
+
+.riquadro_destra h2 {
+    font-size: 48px;
+}
+
+.riquadro_destra p {
+    font-size: 20px;
+    margin-top: 24px;
 }
 
 .riquadro_sinistra.right {
-    /* debug */
     float: right;
-    margin: 8% 5%;
 }
 
 .riquadro_destra.left {
-    /* debug */
     float: left;
-    margin: 8% 3%;
 }
 
 #riquadro_sopra {
